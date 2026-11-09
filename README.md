@@ -1,37 +1,82 @@
-🎵 Biblioteca Musical
-📌 Sobre o projeto
-O projeto Biblioteca Musical é um sistema desenvolvido para organizar e facilitar o gerenciamento de artistas e músicas. Ele possui uma interface simples e intuitiva, permitindo navegar entre as opções de cadastro e consulta.
-🖥️ Funcionalidades
-O sistema possui as seguintes telas:
-- Tela de Login: permite acessar o sistema por meio de usuário e senha.
-- Menu Principal: apresenta as opções disponíveis para navegar pelo sistema.
-- Cadastro de Artistas: permite cadastrar informações dos artistas, como nome, gênero musical, país e foto.
-- Cadastro de Obras/Músicas: permite registrar músicas, informando artista, título, álbum, gênero, link do YouTube, imagem da capa e letra.
-- Listagem de Músicas: apresenta as músicas cadastradas em formato de tabela, com opções visuais de pesquisa e filtro.
-🛠️ Tecnologias utilizadas
-- HTML5
-- CSS3
-📂 Estrutura do projeto
-- login.html – Tela de acesso ao sistema.
-- index.html – Menu principal.
-- cadastro_artista.html – Cadastro de artistas.
-- cadastro_musica.html – Cadastro de obras e músicas.
-- listagem_musicas.html – Listagem das músicas.
-- styles.css – Arquivo responsável pela estilização das páginas.
-▶️ Como executar o projeto
-1. Baixe ou abra a pasta do projeto no computador.
-2. Localize o arquivo login.html.
-3. Abra esse arquivo em um navegador, como Google Chrome ou Microsoft Edge.
-4. Utilize a tela de login para acessar a interface.
-Dados de acesso para demonstração:
-- Usuário: admin
-- Senha: 123
-🚀 Melhorias futuras
-Como melhorias futuras, o projeto poderá receber:
+# 🎵 BIBLIOTECA MUSICAL
+### *Seu espaço para organizar e explorar o universo da música!*
+
+---
+
+## 🎧 Sobre o Projeto
+
+A **Biblioteca Musical** é um projeto desenvolvido com o objetivo de facilitar a organização e o gerenciamento de artistas e músicas em um único lugar.
+
+O sistema conta com uma interface intuitiva e organizada, permitindo acessar diferentes áreas, realizar cadastros e visualizar as músicas disponíveis.
+
+## ✨ Funcionalidades do Sistema
+
+O projeto é composto por cinco telas principais:
+
+| Tela | Descrição |
+|---|---|
+| 🔐 **Login** | Tela de acesso ao sistema por meio de usuário e senha. |
+| 🏠 **Menu Principal** | Apresenta as opções de navegação do sistema. |
+| 🎤 **Cadastro de Artistas** | Permite registrar informações dos artistas, como nome, gênero musical, país e foto. |
+| 🎼 **Cadastro de Obras/Músicas** | Permite cadastrar músicas com título, artista, álbum, gênero, link do YouTube, capa e letra. |
+| 📚 **Listagem de Músicas** | Exibe as músicas cadastradas em uma tabela, com opções visuais de pesquisa e filtro. |
+
+## 🛠️ Tecnologias Utilizadas
+
+As tecnologias utilizadas no desenvolvimento da interface foram:
+
+- **HTML5:** responsável pela estrutura das páginas.
+- **CSS3:** utilizado para a estilização e organização visual do sistema.
+
+## 📁 Estrutura dos Arquivos
+
+```text
+📂 Biblioteca-Musical
+│
+├── 🔐 login.html
+├── 🏠 index.html
+├── 🎤 cadastro_artista.html
+├── 🎼 cadastro_musica.html
+├── 📚 listagem_musicas.html
+└── 🎨 styles.css
+```
+
+## 🚀 Como Executar o Projeto
+
+Para visualizar o sistema, siga os passos:
+
+1. Baixe ou abra a pasta do projeto.
+2. Localize o arquivo `login.html`.
+3. Abra o arquivo em um navegador, como Google Chrome ou Microsoft Edge.
+4. Utilize os dados de demonstração para acessar a interface.
+
+### 🔑 Dados de Acesso
+
+- **Usuário:** `admin`
+- **Senha:** `123`
+
+## 🔮 Melhorias Futuras
+
+O projeto poderá receber novas funcionalidades para tornar o sistema ainda mais completo, como:
+
 - Integração com banco de dados.
-- Cadastro e armazenamento real de artistas e músicas.
+- Armazenamento real dos artistas e das músicas cadastradas.
 - Sistema de autenticação de usuários.
-- Funcionamento das opções de pesquisa e filtros.
-- Funcionalidades de edição e exclusão de registros.
-📌 Observação
-Atualmente, o projeto apresenta a parte visual e estrutural do sistema, desenvolvida com HTML e CSS. Os formulários, filtros e tabelas ainda não estão conectados a um banco de dados.
+- Funcionamento dos filtros e da pesquisa.
+- Opções funcionais para editar e excluir registros.
+
+## 📝 Observação
+
+Atualmente, o projeto contempla a estrutura visual e a navegação entre as telas, desenvolvidas com **HTML5 e CSS3**.
+
+Os formulários, filtros e tabelas ainda não possuem integração com banco de dados, sendo necessário implementar essa parte em futuras etapas.
+
+---
+
+<div align="center">
+
+### 🎶 BIBLIOTECA MUSICAL
+
+*Organizando artistas, registrando obras e valorizando a música!*
+
+</div>
