@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Sistema Musical</title>
+
+    <link rel="icon" href="data:image/svg+xml,…🎵…">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="login-page">
+
+<div class="login-card">
+<div class="login-header">
+
+<h1>🎵 Sistema Musical</h1>
+<p>Entre com suas credenciais</p>
+</div>
+
+<form method="post" action="#">
+<div class="form-group">
+
+<label for="usuario">Usuário</label>
+<input type="text" id="usuario" name="usuario"
+
+required placeholder="Seu usuário">
+
+</div>
+
+<!-- senha: igual, com type="password" -->
+<div class="form-group">
+ <label for="senha">Senha</label>
+ <!-- type="password": esconde o que a pessoa digita (●●●). -->
+ <input type="password"
+ id="senha"
+ name="senha"
+ required
+ autocomplete="current-password"
+ placeholder="Sua senha">
+
+</div>
+
+<div class="form-group">
+
+
+ <!-- type="submit": envia o formulário. A classe btn-primary deixa o botão azul. -->
+<button type="submit" class="btn-primary">Entrar</button>
+ </form>
+
+ <!-- login-hint: a dica com as credenciais de teste. <code> mostra em fonte de código. -->
+ <div class="login-hint">
+ <strong>Credenciais de teste:</strong><br>
+Usuário: <code>admin</code> &nbsp;·&nbsp; Senha: <code>123</code>
+ <!-- &nbsp; = espaço que não quebra a linha. -->
+ </div>
+
+</div>
+
+ </body>
+ </html>
